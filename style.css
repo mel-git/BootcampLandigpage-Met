@@ -1,0 +1,127 @@
+@media screen and (min-width: 480px){
+
+}
+
+#navegador ul {
+   list-style-type: none;
+   text-align: right;    
+ }
+
+#navegador li {
+   display: inline;
+   margin: 0 10px 0 0;
+}
+
+#navegador a {
+  color: grey;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: helvetica;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    text-align: left;
+  font-weight: bold;
+  color: azure;
+  text-transform: uppercase;
+  height: auto;
+  margin: 0rem auto;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+  font-size: 2rem;
+  font-family: helvetica;
+}
+
+.cuadradito {
+  top:167px;
+  position: absolute;
+  background-color: #ff5d5d;
+  width: 0.1rem;
+  height: 1rem;
+  padding-right: 0.5rem;
+  padding-top: 71px;
+  margin-top: 2.2rem;
+  margin-left: -14rem;
+}
+
+.hero {
+  width: 100%;
+}
+
+h1 {
+  color: #ff5d5d;
+  font-family: arial;
+  font-size: 36px;
+  
+}
+
+h2 {
+  font-family: arial;
+  font-size: 24px;
+  height: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 16px;
+  }
+
+form {
+  font-family: helvetica;  
+}
+
+#Bootcamp {
+  text-align: left;
+  background-color: #e2dede;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+label {
+  color: #777373;
+  font-size: 14px;
+}
+
+::-webkit-input-placeholder {
+    color: black;
+    font-size: 16px;
+  }
+
+  .Nombre,
+  .Apellido,
+  .Teléfono,
+  .Email {
+  width: 280px;
+  height: 48px;
+  border-radius: 4px;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+}
+  
+  .Consulta {
+  width: 280px;
+  height: 263px;
+  border: solid 1px rgba(0, 0, 0, 0.25);
+  }
+
+button {
+  width: 280px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #ff5d5d;
+  color: white;
+  font-size: 16px;
+}
