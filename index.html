@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bootcamp hecho por mí</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body> 
+      <header>                 
+        <div id="navegador">
+          <ul>
+          <li><img src="images/me-t-logo.jpg" alt="logo-met" align="left"></li>
+          <li><a href="#Nosotras">Nosotras</a></li>
+          <li><a href="#Bootcamp">Bootcamp</a></li>
+          <li><a href="#Contactanos">Contacto</a></li>
+          </ul>
+          </div>
+      </header>
+
+       <div class="contenedor">
+        <span class="cuadradito"></span>
+        <div class="hero">
+          <img  src="images/hero.jpg" width="100%"/> 
+        </div>
+        <div class="texto-encima">APRENDE PROGRAMACION WEB Y POTENCIA IDEAS</div>
+       </div>
+
+      <div id="Nosotras"></div>
+        <h1 align="center">Comunidad MET</h1>
+        <h2>¿Quienes somos?</h2>
+        <p align="center">Mujeres que trabajan y estudian en áreas de computación, automatización, ciencia de datos y tecnología en general. Centramos nuestro trabajo en la provincia de Córdoba, buscamos colaborar con otros grupos, reforzar la comunidad Argentina y ser parte de las redes regionales y globales con objetivos y visiones similares.
+        </p>
+
+      <div id="Bootcamp">
+      <h1>Bootcamp</h1>
+      <p>Durante el Bootcamp Web <span class="negrita">vas a aprender a diseñar soluciones web y armar una landing page en pocos pasos.</span></p>
+      <p>Nos enfocamos en la práctica real, con acompañamiento de mentoras y profesionales de la industria. El Bootcamp Web está dirigido a mujeres y géneros no binarios para <span class="negrita"> impulsar la diversidad en la comunidad tecnológica cordobesa y visibilizar nuestro impacto.</span></p>
+      <img src="images/imagen-bootcamp.jpg" align="left"/>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+      <div>
+        <h1 id="Contactanos" align="center">Contactate con nosotras</h1>
+        <p align="center">Querés ser parte de la comunidad MET, escribinos y ayudanos a que cada vez seamos más.</p>
+      </div>
+
+      <form>
+        <div>
+          <label>Nombre</label>
+          <div><input type="text" class="Nombre" placeholder="Nombre"></div>
+        </div>
+
+        <div>
+          <label>Apellido</label>
+          <div><input type="text" class="Apellido" placeholder="Apellido"></div>
+        </div>
+
+        <div>
+          <label>Teléfono</label>
+          <div><input type="text" class="Teléfono" placeholder="3515000000"></div>
+        </div>
+
+        <div>
+          <label>Email</label>
+          <div><input type="text" class="Email" placeholder="mail@gmail.com"></div>
+        </div>
+
+        <div>
+          <label>Consulta</label>
+          <div><textarea class="Consulta" placeholder="Consulta"></textarea></div>
+        </div>
+
+        <button onclick='return leerNombre()'>Enviar</button>
+
+      </form>
+
+<script src="codigo.js">	
+</script>
+    </body>
+
+</html>
